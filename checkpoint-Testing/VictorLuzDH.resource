@@ -136,5 +136,13 @@ Preenchimento dos campos input bolsa
         Input Text                      ${CAMPO_SOBRENOME_BOLSA}     ${INPUT_SOBRENOME}
         Input Text                      ${CAMPO_EMAIL_BOLSA}         ${INPUT_EMAIL} 
         Input Text                      ${CAMPO_DDDECELULAR}         ${INPUT_DDDECELULAR} 
-       
+        Select from list by label       state                         Minas Gerais
+        Sleep                           1
+        Select from list by label       ethnic_descent                Branco
+        Sleep                           1
+        Select checkbox                 checkbox_terms
+        Sleep                           3
+        Unselect checkbox               checkbox_terms  
+
+    
 # <----  ---->  
