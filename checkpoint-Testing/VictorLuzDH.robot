@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Resource   ./VictorLuzDH.resource
-
+Test Teardown      Close Browser
 
 *** Test Cases ***
 
@@ -20,8 +20,7 @@ Validação das informações do curso de Data Analytics
     Clicar em “Inscreva-se agora" e "Increva-se"
     # Passo 7 - VALOR DO CURSO “R$10.315” , definido em variavel própria
     Validacao de valor do curso de Data Analytics
-    #Passo 8 - Método Geral
-    Test Teardown
+   
     
 Validação das informações do curso de Data Science
     # Passo 1 - Método geral
@@ -38,8 +37,7 @@ Validação das informações do curso de Data Science
     Clicar em “Inscreva-se agora" e "Increva-se"
     # Passo 7 - VALOR DO CURSO “R$11.878” , definido em variavel própria
     Validacao de valor do curso de Data Science
-    #Passo 8 - Método Geral
-    Test Teardown
+    
    
 Validação das informações do curso de Marketing Digital
     # Passo 1 - Método geral
@@ -56,8 +54,7 @@ Validação das informações do curso de Marketing Digital
     Clicar em “Inscreva-se agora" e "Increva-se"
     # Passo 7 - VALOR DO CURSO “R$11.878” , definido em variavel própria
     Validacao de valor do curso de Marketing Digital
-    #Passo 8 - Método Geral
-    Test Teardown
+   
 
  
 Validação das informações do curso Certified Tech Developer
@@ -77,8 +74,7 @@ Validação das informações do curso Certified Tech Developer
     Validacao de valor do curso Certified Tech Developer
     # Passo 8
     Preenchimento dos campos input
-    #Passo 9 - Método Geral
-    Test Teardown
+    
 
 
 Validação das informações do Programa de Bolsas BLK PWR DEV
@@ -96,8 +92,7 @@ Validação das informações do Programa de Bolsas BLK PWR DEV
     Clicar em “Quero minha bolsa de estudo”
     # Passo 7
     Preenchimento dos campos input bolsa
-    #Passo 8 - Método Geral
-    Test Teardown
+    
     
     
    

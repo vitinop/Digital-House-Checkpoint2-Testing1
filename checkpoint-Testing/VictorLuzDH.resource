@@ -36,8 +36,6 @@ ${INPUT_DDDECELULAR}             31985748416
 
 *** Keywords ***
 # Métodos de acesso gerais
-Test Teardown
-        Close Browser
 Abrir o site da Digital House
         Open Browser                    ${SITE}        ${NAVEGADOR}
         Maximize Browser Window
