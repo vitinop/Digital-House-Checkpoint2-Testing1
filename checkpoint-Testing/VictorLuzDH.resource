@@ -41,8 +41,9 @@ Abrir o site da Digital House
         Maximize Browser Window
 
 Clicar em “Aceitar Cookies”
-        Sleep                           6
+        Sleep                           5
         Select frame                    xpath=/html/body/iframe[4]
+        Wait Until Element is Visible   xpath=/html/body/div/div/div[1]/div[1]/div[2]/div[1]/div[2]
         Click Element                   xpath=/html/body/div/div/div[1]/div[1]/div[2]/div[1]/div[2]
         Unselect frame
 
